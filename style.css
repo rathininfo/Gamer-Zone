@@ -243,5 +243,112 @@ header{
     font-weight: 500;
     color: var(--descriptoin-font-color);
     line-height: 30px;
+    margin-bottom: 120px;
 }
 /* end online game cart section style */
+
+/* start Play Instantly section style */
+
+.Play-instantly-all-content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Play-instantly-content{
+    text-align: right;
+}
+
+.Play-instantly-containter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Play-instantly-content h3{
+    font-size: var(--title-font-size);
+    margin-bottom: 24px;
+}
+
+.my-talking-image{
+   position: relative;
+   left: 180px;
+   top: 120px;
+}
+
+
+.Play-instantly-descripton{
+    line-height: 30px;
+    font-weight: 500;
+    font-size:var(--description-font-size) ;
+    color: var(--descriptoin-font-color);
+}
+
+/* End Play Instantly section style */
+
+ /* start-game-play-button style */
+ .game-play-button-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 300px;
+ }
+ .game-play-button-container-one{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+ }
+
+
+.game-play-button-container-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: ;
+    align-items: center;
+    margin-top: 45px;
+    column-gap: 10px;
+  }
+ 
+
+ .play-game-button-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #FFF;
+    font-size: var(--button-font-size);
+    padding: 8px;
+    box-shadow:2px 2px 10px rgb(236, 236, 236);
+    border-radius: 50px;
+ }
+
+ .play-game-button-one:hover{
+    border-radius: 50px;
+    background-color: #fff;
+    border: 2px solid var(--primary-color) ;
+    padding:8px;
+    color: var(--primary-color);
+    
+ }
+
+ .play-game-button-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #FFF;
+    font-size: var(--button-font-size);
+    border-radius: 50px;
+    box-shadow:2px 2px 10px rgb(236, 236, 236);
+ }
+
+ .play-game-button-two:hover{
+    border-radius: 50px;
+    background-color: #fff;
+    border: 2px solid var(--primary-color) ;
+    color: var(--primary-color);
+    
+ }
+
+
+  /* end-game-play-button style */
