@@ -203,6 +203,45 @@ header{
     color: var(--descriptoin-font-color);
 }
 
-
-
 /* End we are gamers section style */
+
+/* start online game cart section style */
+.online-game-all-content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.online-games-section h3{
+    font-size: var(--title-font-size);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.online-games-section p{
+    text-align: center;
+    font-size: var(--description-font-size);
+    margin-bottom: 48px;
+    color: var(--descriptoin-font-color);
+
+}
+.funny-videos-text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+
+.game-cart p{
+    margin-top: 24px;
+    text-align: left;
+    font-size: var(--button-font-size);
+    font-weight: 500;
+    color: var(--descriptoin-font-color);
+    line-height: 30px;
+}
+/* end online game cart section style */
