@@ -85,9 +85,8 @@ header{
     font-size: 0.5rem;
     gap: 24px;
 }
-
-.fa-youtube{
-    color:  #F61C0D;;
+#youtube-icon{
+    color: #F61C0D;;
 }
 
 /* end nav style */
@@ -255,7 +254,7 @@ header{
 }
 
 .Play-instantly-content{
-    text-align: right;
+    text-align: le;
 }
 
 .Play-instantly-containter{
@@ -320,6 +319,7 @@ header{
     padding: 8px;
     box-shadow:2px 2px 10px rgb(236, 236, 236);
     border-radius: 50px;
+    cursor: pointer;
  }
 
  .play-game-button-one:hover{
@@ -352,3 +352,85 @@ header{
 
 
   /* end-game-play-button style */
+
+
+  footer{
+    margin-top: 130px;
+    background-color: #0B0223;
+  }
+
+  .footer-all-content{
+    padding-top: 126px;
+  }
+
+  
+  .footer-logo-text{
+    color: #ffffff;
+  }
+
+  .footer-option-container{
+    margin-top: 66px;
+  }
+
+  .footer-list{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  .footer-list li{
+    list-style: none;
+  }
+
+.footer-list li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size:var(--description-font-size);
+    font-weight: 600;
+  }
+
+  .footer-social-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+    gap: 30px;
+    margin-bottom: 74px;
+  }
+
+.footer-social-icon-container  a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.footer-info-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-info-list li{
+    list-style: none;
+}
+
+.footer-info-list li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-copyright-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 130px;
+}
+
+.footer-copyright-section p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
