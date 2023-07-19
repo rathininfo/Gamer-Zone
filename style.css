@@ -85,6 +85,13 @@ header{
     font-size: 0.5rem;
     gap: 24px;
 }
+
+.menubar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #youtube-icon{
     color: #F61C0D;;
 }
@@ -115,7 +122,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .goat-banner-title{
@@ -202,6 +208,13 @@ header{
     color: var(--descriptoin-font-color);
 }
 
+.quote{
+    margin: 24px 0px 32px 0px;
+    font-size:1.5rem;
+    color: var(--descriptoin-font-color);
+    font-weight: 600px;
+}
+
 /* End we are gamers section style */
 
 /* start online game cart section style */
@@ -235,7 +248,7 @@ header{
     gap: 24px;
 }
 
-.game-cart p{
+.game-cart > p{
     margin-top: 24px;
     text-align: left;
     font-size: var(--button-font-size);
@@ -244,6 +257,28 @@ header{
     line-height: 30px;
     margin-bottom: 120px;
 }
+
+
+.play-video-btn > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 80px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: 140px;
+}
+
+.play-video-btn p{
+    z-index: 1;
+    position: absolute;
+    font-weight: 600;
+    color: #F948B2;
+    margin-top: 250px;
+    margin-left: 80px;
+    font-size: 2rem;
+}
+
 /* end online game cart section style */
 
 /* start Play Instantly section style */
@@ -251,10 +286,6 @@ header{
 .Play-instantly-all-content{
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.Play-instantly-content{
-    text-align: le;
 }
 
 .Play-instantly-containter{
@@ -300,7 +331,6 @@ header{
 
 
 .game-play-button-container-two{
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: ;
     align-items: center;
@@ -361,6 +391,8 @@ header{
 
   .footer-all-content{
     padding-top: 126px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   
@@ -376,6 +408,7 @@ header{
     display: flex;
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
   }
   .footer-list li{
     list-style: none;
@@ -395,6 +428,7 @@ header{
     margin-top: 66px;
     gap: 30px;
     margin-bottom: 74px;
+    flex-wrap: wrap;
   }
 
 .footer-social-icon-container  a{
@@ -434,3 +468,166 @@ header{
     font-size: 1rem;
     font-weight: 500;
 }
+
+
+/* 
+Start-responsive */
+/* nav section responsive */
+
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .logo-container{
+    }
+
+    .menubar{flex-direction: column;
+    }
+
+.menubar ul{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+/* end nav section responsive */
+
+   
+.goat-banner-container{
+    flex-direction: column-reverse;
+}
+
+.goat-banner-section{
+    background-position: bottom;
+    background-size: 550px;
+    margin-top: 50px;
+    width: 100%;
+ }
+ 
+
+.goat-banner-content{
+    margin-top: 150px;
+    padding-bottom: 60px;
+}
+
+.banner-img{
+    margin-bottom:20px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.We-are-gamer-container-section{
+    margin-top: 80px;
+}
+
+.We-are-gamer-container{
+    flex-direction: column;
+}
+
+.gamer-content{
+    text-align: center;
+    padding: 50px;
+}
+ 
+.gramer-content img{
+    width: 100%;
+}
+
+.online-game-container{
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+}
+
+.game-cart p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.game-cart img{
+    width: 80%;
+}
+
+.online-games-section h3{
+    font-size: 2rem;
+}
+
+.online-games-section p{
+    padding: 10px;
+}
+
+
+
+.Play-instantly-containter{
+    flex-direction: column;
+}
+
+.Play-instantly-content{
+    text-align: center;
+}
+
+.Play-instantly-content h3{
+    font-size: 2rem;
+}
+.Play-instantly-content p{
+    font-size: 1rem;
+}
+
+.play-instantly-images{
+   width: 100%;
+   height: 100%;
+}
+
+.play-instantly-images img{
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+    
+}
+
+.horse-rider-image{
+    width: 65%;
+    
+}
+
+.my-talking-image{
+    width: 30%;
+   
+}
+
+.game-play-button-container-one{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.5rem;
+    gap: 5px;
+  }
+ 
+ 
+ .game-play-button-container-two{
+     display: flex;
+     margin-top: 45px;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 5px;
+   }
+
+   .play-game-button-one p{
+    font-size: 0.5rem;
+   }
+
+   .play-game-button-one img{
+    width: 20%;
+   }
+   
+.footer-social-icon-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-info-list{
+    flex-wrap: wrap;
+  }
+
+}
+
+
+
