@@ -541,15 +541,15 @@ Start-responsive */
 }
 
 .game-cart img{
-    width: 50%;
+    width: 70%;
 }
 
 .online-games-section h3{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .online-games-section p{
-    padding: 10px;
+    font-size: 0.7rem;
 }
 
 
