@@ -234,6 +234,10 @@ margin-bottom: 15px;
 
 /* start online game cart section style */
 
+.online-games-section{
+    margin-bottom: 185px;
+}
+
 .online-game-all-content{
     max-width: 1440px;
     margin: 0 auto;
@@ -282,6 +286,48 @@ margin-bottom: 15px;
 .game-cart img{
     width: 100%;
 }
+
+
+
+.game-cart-overly-content{
+    position: relative;
+
+}
+
+.image-overlay{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height:calc(100% - 2px);
+    width: 100%;
+    background-color:#00000072;
+    opacity: 0;
+    border: 5px solid var(--primary-color);
+    border-radius:15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-overlay i{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.image-overlay > p{
+    color: var(--primary-color);
+}
+
+.game-cart-overly-content:hover .image-overlay{
+    opacity: 1;
+    
+}
+
+
+
 
 
 /* end online game cart section style */
@@ -532,7 +578,6 @@ margin-bottom: 15px;
     line-height: 25px;
 }
     
-
 .gamer-content .gamer-content-description{
     font-size: 14px;
 }
@@ -550,8 +595,12 @@ margin-bottom: 15px;
 
 /* start online-game-container section responsive */
 
+.online-games-section{
+    padding: 0px 60px 0px 60px;
+}
+
 .online-game-container{
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
 }
 
@@ -561,15 +610,69 @@ margin-bottom: 15px;
     line-height:30px;
 }
 
-.game-cart img{
-    width: 70%;
-}
-
 .online-games-section h3{
     font-size: 2rem;
 }
 
 .online-games-section > p{
+    font-size: 1rem;
+}
+
+.game-cart p{
+    margin-top: 24px;
+    font-size: var(--button-font-size);
+    font-weight: 500;
+    color: var(--descriptoin-font-color);
+    line-height: 30px;
+    text-align: left;
+}
+
+.game-cart img{
+    width: 100%;
+}
+
+.game-cart-overly-content{
+    position: relative;
+
+}
+
+.image-overlay{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height:calc(100% - 2px);
+    width: 100%;
+    background-color:#00000072;
+    opacity: 0;
+    border: 5px solid var(--primary-color);
+    border-radius:15px;
+}
+
+.image-overlay i{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.image-overlay > p{
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.game-cart-overly-content:hover .image-overlay{
+    opacity: 1; 
+}
+
+
+.game-cart .online-game-description{
+    text-align: center;
+    font-weight: 500;
     font-size: 1rem;
 }
 
