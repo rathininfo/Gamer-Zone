@@ -41,6 +41,10 @@ header{
     gap: 20px;
 }
 
+.logo-image-link{
+    text-decoration:none;
+}
+
 .logo-content img{
     width: 100%;
 }
@@ -245,39 +249,22 @@ header{
 .online-game-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 24px;
 }
 
-.game-cart > p{
+.game-cart-content{
+    padding: 150px;
+}
+
+
+.game-cart p{
     margin-top: 24px;
-    text-align: left;
     font-size: var(--button-font-size);
     font-weight: 500;
     color: var(--descriptoin-font-color);
     line-height: 30px;
-    margin-bottom: 120px;
+    text-align: left;
 }
 
-
-.play-video-btn > a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 80px;
-    position: absolute;
-    z-index: 1;
-    margin-left: 130px;
-    margin-top: 140px;
-}
-
-.play-video-btn p{
-    z-index: 1;
-    position: absolute;
-    font-weight: 600;
-    color: #F948B2;
-    margin-top: 250px;
-    margin-left: 80px;
-    font-size: 2rem;
-}
 
 /* end online game cart section style */
 
@@ -542,7 +529,7 @@ Start-responsive */
 }
 
 .game-cart img{
-    width: 80%;
+    width: 50%;
 }
 
 .online-games-section h3{
@@ -676,7 +663,7 @@ align-items: center;
 }
 
 .game-cart img{
-    width: 80%;
+    width: 50%;
 }
 
 .online-games-section h3{
@@ -811,7 +798,7 @@ align-items: center;
 }
 
 .game-cart img{
-    width: 80%;
+    width: 40%;
 }
 
 .online-games-section h3{
@@ -841,8 +828,8 @@ align-items: center;
 }
 
 .play-instantly-images{
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .play-instantly-images img{
@@ -880,17 +867,7 @@ align-items: center;
 
 
 @media screen and (min-width:992px) and (max-width:1200px){
-    .nav-container{
-        flex-direction: column;
-        }
-    .menubar{flex-direction: column;
-    }
-
-.menubar ul{
-        margin-top: 40px;
-        flex-direction: column;
-    }
-
+    
 /* end nav section responsive */
 
    
@@ -932,6 +909,7 @@ align-items: center;
  
 .gramer-content img{
     width: 100%;
+    height: 100%;
 }
 
 .online-game-container{
@@ -945,7 +923,7 @@ align-items: center;
 }
 
 .game-cart img{
-    width: 80%;
+    width: 40%;
 }
 
 .online-games-section h3{
