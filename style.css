@@ -374,13 +374,68 @@ margin-bottom: 15px;
     color: var(--descriptoin-font-color);
 }
 
-/* End Play Instantly section style */
+/* start carrears section style */
+
+.careers-section{
+    background-color: #F948B2;
+    margin-top: 243px;
+}
+
+.careers-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 50px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.left-right-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.careers-all-text-content h1{
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
+
+.careers-all-text-content p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-btn{
+    background-color: #FFF;
+    margin-top: 40px;
+    padding: 15px 40px;
+}
+
+.banner-btn a{
+    text-decoration: none;
+    color:var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 15px;
+}
+
+.carrers-img {
+ width: 54%;
+}
+
+/* End carrears section style */
+
 
  /* start-game-play-button style */
  .game-play-button-section{
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 120px;
  }
  .game-play-button-container{
    display: flex;
